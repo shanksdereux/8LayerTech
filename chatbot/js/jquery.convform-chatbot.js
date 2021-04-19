@@ -303,7 +303,7 @@ ConvState.prototype.answerWith = function(answerText, answerObject) {
                 input['required'] = true;
             if($(this).attr('type'))
                 input['type'] = $(this).attr('type');
-            input['questions'] = $(this).attr('data-conv-question').split("|");
+            input['questions'] = $(this).attr('data-conv-question').split("|"); 
             if($(this).attr('data-pattern'))
                 input['pattern'] = $(this).attr('data-pattern');
             if($(this).attr('data-callback'))
