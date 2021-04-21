@@ -19311,7 +19311,7 @@ button:focus {
 /*   [ 24. contact form CSS ] 
 ----------------------------------------*/
 .contact-form-card {
-  background-color: #f7faff;
+  background-color: transparent;
   padding: 30px;
   border-radius: 15px;
 }
