@@ -126,6 +126,13 @@ a, a:hover {
 
 /* ================================================== */
 
+
+
+.img--container {
+	width: 20ch;
+	border: 1ch solid #1e88e5;
+	background: salmon;
+  }
 #slideshow {
 	margin: 50px auto;
 	position: relative;
