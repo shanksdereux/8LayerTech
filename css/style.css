@@ -128,6 +128,20 @@ a, a:hover {
 
 
 
+.parallax {
+	/* The image used */
+	background-image: url('../images/BG8.svg') !important;
+  
+	/* Full height */
+	height: 100%; 	
+  
+	/* Create the parallax scrolling effect */
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+  }
+
 .img--container {
 	width: 20ch;
 	border: 1ch solid #1e88e5;
